@@ -742,7 +742,6 @@ a:visited {
 }
 
 .avss-features__item--img img {
-  width: 5rem;
   height: 5rem;
 }
 
@@ -1032,6 +1031,9 @@ a:visited {
   margin-bottom: -1rem;
 }
 
+.avss-product__main--img .child-img{
+	border-radius: 50%;
+}
 
 
 /*====================
