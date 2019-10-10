@@ -1,0 +1,28 @@
+@font-face {
+	font-family: "Lato";
+	src: url("lato-bold.eot");
+	src: url("lato-bold.eot?#iefix") format("embedded-opentype"),
+		url("lato-bold.woff") format("woff"),
+		url("lato-bold.ttf") format("truetype");
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("lato-regular.eot");
+	src: url("lato-regular.eot?#iefix") format("embedded-opentype"),
+		url("lato-regular.woff") format("woff"),
+		url("lato-regular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("lato-regularitalic.eot");
+	src: url("lato-regularitalic.eot?#iefix") format("embedded-opentype"),
+		url("lato-regularitalic.woff") format("woff"),
+		url("lato-regularitalic.ttf") format("truetype");
+	font-weight: normal;
+	font-style: italic;
+}
