@@ -1,444 +1,5 @@
 [
     {
-        "key": "group_5d9ce3f02d44a",
-        "title": "App Info",
-        "fields": [
-            {
-                "key": "field_5d9ce3f93935c",
-                "label": "App Image",
-                "name": "app_img",
-                "type": "image",
-                "instructions": "",
-                "required": 1,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "return_format": "url",
-                "preview_size": "full",
-                "library": "all",
-                "min_width": "",
-                "min_height": "",
-                "min_size": "",
-                "max_width": "",
-                "max_height": "",
-                "max_size": "",
-                "mime_types": ""
-            },
-            {
-                "key": "field_5d9ce4c53935d",
-                "label": "Play Store Link",
-                "name": "app_playstore",
-                "type": "url",
-                "instructions": "",
-                "required": 1,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "default_value": "",
-                "placeholder": "Enter App URL (Play Store)"
-            },
-            {
-                "key": "field_5d9ce5223935f",
-                "label": "App Store Link",
-                "name": "app_appstore",
-                "type": "url",
-                "instructions": "",
-                "required": 1,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "default_value": "",
-                "placeholder": "Enter App URL (App Store)"
-            },
-            {
-                "key": "field_5d9ce54339360",
-                "label": "App Feature #1",
-                "name": "app_feature_1",
-                "type": "textarea",
-                "instructions": "",
-                "required": 1,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "default_value": "",
-                "placeholder": "Enter Your App Features",
-                "maxlength": 150,
-                "rows": 3,
-                "new_lines": ""
-            },
-            {
-                "key": "field_5d9ce58539361",
-                "label": "App Feature #2",
-                "name": "app_feature_2",
-                "type": "textarea",
-                "instructions": "",
-                "required": 1,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "default_value": "",
-                "placeholder": "Enter Your App Features",
-                "maxlength": 150,
-                "rows": 3,
-                "new_lines": ""
-            },
-            {
-                "key": "field_5d9ce59439362",
-                "label": "App Feature #3",
-                "name": "app_feature_3",
-                "type": "textarea",
-                "instructions": "",
-                "required": 1,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "default_value": "",
-                "placeholder": "Enter Your App Features",
-                "maxlength": 150,
-                "rows": 3,
-                "new_lines": ""
-            },
-            {
-                "key": "field_5d9ce5a739364",
-                "label": "App Feature #4",
-                "name": "app_feature_4",
-                "type": "textarea",
-                "instructions": "",
-                "required": 1,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "default_value": "",
-                "placeholder": "Enter Your App Features",
-                "maxlength": 150,
-                "rows": 3,
-                "new_lines": ""
-            },
-            {
-                "key": "field_5d9ce5d539366",
-                "label": "App Feature #5",
-                "name": "app_feature_5",
-                "type": "textarea",
-                "instructions": "",
-                "required": 1,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "default_value": "",
-                "placeholder": "Enter Your App Features",
-                "maxlength": 150,
-                "rows": 3,
-                "new_lines": ""
-            }
-        ],
-        "location": [
-            [
-                {
-                    "param": "post_type",
-                    "operator": "==",
-                    "value": "appinfo"
-                }
-            ]
-        ],
-        "menu_order": 0,
-        "position": "normal",
-        "style": "default",
-        "label_placement": "top",
-        "instruction_placement": "label",
-        "hide_on_screen": "",
-        "active": true,
-        "description": ""
-    },
-    {
-        "key": "group_5d9ce1751a47a",
-        "title": "Clients",
-        "fields": [
-            {
-                "key": "field_5d9ce1a76b1aa",
-                "label": "Client Image",
-                "name": "client_img",
-                "type": "image",
-                "instructions": "",
-                "required": 1,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "return_format": "url",
-                "preview_size": "medium",
-                "library": "all",
-                "min_width": "",
-                "min_height": "",
-                "min_size": "",
-                "max_width": "",
-                "max_height": "",
-                "max_size": "",
-                "mime_types": ""
-            },
-            {
-                "key": "field_5d9ce2116b1ab",
-                "label": "Client URL",
-                "name": "client_url",
-                "type": "text",
-                "instructions": "",
-                "required": 0,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "default_value": "",
-                "placeholder": "Enter URL if any",
-                "prepend": "",
-                "append": "",
-                "maxlength": ""
-            }
-        ],
-        "location": [
-            [
-                {
-                    "param": "post_type",
-                    "operator": "==",
-                    "value": "clients"
-                }
-            ]
-        ],
-        "menu_order": 0,
-        "position": "acf_after_title",
-        "style": "default",
-        "label_placement": "top",
-        "instruction_placement": "label",
-        "hide_on_screen": [
-            "permalink",
-            "the_content",
-            "excerpt",
-            "discussion",
-            "comments",
-            "revisions",
-            "slug",
-            "author",
-            "format",
-            "page_attributes",
-            "featured_image",
-            "categories",
-            "tags",
-            "send-trackbacks"
-        ],
-        "active": true,
-        "description": ""
-    },
-    {
-        "key": "group_5d9ce8301f31f",
-        "title": "Dealers",
-        "fields": [
-            {
-                "key": "field_5d9ce83960e25",
-                "label": "Dealer Title",
-                "name": "dealer_title",
-                "type": "text",
-                "instructions": "",
-                "required": 1,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "default_value": "",
-                "placeholder": "E.g. রহমতউল্লাহ এন্ড সন্স",
-                "prepend": "",
-                "append": "",
-                "maxlength": ""
-            },
-            {
-                "key": "field_5d9ceb6060e27",
-                "label": "Dealer Address",
-                "name": "dealer_address",
-                "type": "textarea",
-                "instructions": "",
-                "required": 1,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "default_value": "",
-                "placeholder": "E.g. হাজী তাহের এন্টারপ্রাইজ  এ,এম, হাজী মার্কেট, নিশ্চন্তপুর, ক্যান্টমেন্ট,কুমিল্লা।",
-                "maxlength": "",
-                "rows": 3,
-                "new_lines": ""
-            },
-            {
-                "key": "field_5d9ceb9460e28",
-                "label": "Dealer Phone Number #1",
-                "name": "dealer_phone_num_1",
-                "type": "text",
-                "instructions": "",
-                "required": 1,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "default_value": "",
-                "placeholder": "01711-269589",
-                "prepend": "",
-                "append": "",
-                "maxlength": ""
-            },
-            {
-                "key": "field_5d9cebd460e29",
-                "label": "Dealer Phone Number #2",
-                "name": "dealer_phone_num_2",
-                "type": "text",
-                "instructions": "",
-                "required": 1,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "default_value": "",
-                "placeholder": "01711-269589",
-                "prepend": "",
-                "append": "",
-                "maxlength": ""
-            }
-        ],
-        "location": [
-            [
-                {
-                    "param": "post_type",
-                    "operator": "==",
-                    "value": "dealers"
-                }
-            ]
-        ],
-        "menu_order": 0,
-        "position": "normal",
-        "style": "default",
-        "label_placement": "top",
-        "instruction_placement": "label",
-        "hide_on_screen": "",
-        "active": true,
-        "description": ""
-    },
-    {
-        "key": "group_5d9ce69fdc14c",
-        "title": "Features",
-        "fields": [
-            {
-                "key": "field_5d9ce716b24a6",
-                "label": "Feature Title",
-                "name": "feature_title",
-                "type": "text",
-                "instructions": "",
-                "required": 1,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "default_value": "",
-                "placeholder": "E.g. NO MONTHLY FEE",
-                "prepend": "",
-                "append": "",
-                "maxlength": ""
-            },
-            {
-                "key": "field_5d9ce7c8b24a8",
-                "label": "Feature Image",
-                "name": "feature_img",
-                "type": "image",
-                "instructions": "Add a Square Image",
-                "required": 1,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "return_format": "url",
-                "preview_size": "medium",
-                "library": "all",
-                "min_width": "",
-                "min_height": "",
-                "min_size": "",
-                "max_width": "",
-                "max_height": "",
-                "max_size": "",
-                "mime_types": ""
-            },
-            {
-                "key": "field_5d9ce7a5b24a7",
-                "label": "Feature Info",
-                "name": "feature_info",
-                "type": "textarea",
-                "instructions": "",
-                "required": 1,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "default_value": "",
-                "placeholder": "The cool things about AVSS devices are that there is no monthly fee required.",
-                "maxlength": 200,
-                "rows": 4,
-                "new_lines": ""
-            }
-        ],
-        "location": [
-            [
-                {
-                    "param": "post_type",
-                    "operator": "==",
-                    "value": "features"
-                }
-            ]
-        ],
-        "menu_order": 0,
-        "position": "normal",
-        "style": "default",
-        "label_placement": "top",
-        "instruction_placement": "label",
-        "hide_on_screen": "",
-        "active": true,
-        "description": ""
-    },
-    {
         "key": "group_5d9ced386b0de",
         "title": "Products",
         "fields": [
@@ -695,6 +256,383 @@
         "description": ""
     },
     {
+        "key": "group_5d9ce8301f31f",
+        "title": "Dealers",
+        "fields": [
+            {
+                "key": "field_5d9ce83960e25",
+                "label": "Dealer Zilla",
+                "name": "dealer_zilla",
+                "type": "text",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "E.g. ঢাকা- বংশাল",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5daff98850ac2",
+                "label": "Dealer Title",
+                "name": "dealer_title",
+                "type": "text",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "E.g. রহমতউল্লাহ এন্ড সন্স",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5d9ceb6060e27",
+                "label": "Dealer Address",
+                "name": "dealer_address",
+                "type": "textarea",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "E.g. হাজী তাহের এন্টারপ্রাইজ  এ,এম, হাজী মার্কেট, নিশ্চন্তপুর, ক্যান্টমেন্ট,কুমিল্লা।",
+                "maxlength": "",
+                "rows": 3,
+                "new_lines": ""
+            },
+            {
+                "key": "field_5d9ceb9460e28",
+                "label": "Dealer Phone Number #1",
+                "name": "dealer_phone_num_1",
+                "type": "text",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "01711-269589",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5d9cebd460e29",
+                "label": "Dealer Phone Number #2",
+                "name": "dealer_phone_num_2",
+                "type": "text",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "01711-269589",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "dealers"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    },
+    {
+        "key": "group_5d9ce69fdc14c",
+        "title": "Features",
+        "fields": [
+            {
+                "key": "field_5d9ce716b24a6",
+                "label": "Feature Title",
+                "name": "feature_title",
+                "type": "text",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "E.g. NO MONTHLY FEE",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5d9ce7c8b24a8",
+                "label": "Feature Image",
+                "name": "feature_img",
+                "type": "image",
+                "instructions": "Add a Square Image",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "url",
+                "preview_size": "medium",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            },
+            {
+                "key": "field_5d9ce7a5b24a7",
+                "label": "Feature Info",
+                "name": "feature_info",
+                "type": "textarea",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "The cool things about AVSS devices are that there is no monthly fee required.",
+                "maxlength": 200,
+                "rows": 4,
+                "new_lines": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "features"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    },
+    {
+        "key": "group_5d9ce3f02d44a",
+        "title": "App Info",
+        "fields": [
+            {
+                "key": "field_5d9ce3f93935c",
+                "label": "App Image",
+                "name": "app_img",
+                "type": "image",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "url",
+                "preview_size": "full",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            },
+            {
+                "key": "field_5d9ce4c53935d",
+                "label": "Play Store Link",
+                "name": "app_playstore",
+                "type": "url",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "Enter App URL (Play Store)"
+            },
+            {
+                "key": "field_5d9ce5223935f",
+                "label": "App Store Link",
+                "name": "app_appstore",
+                "type": "url",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "Enter App URL (App Store)"
+            },
+            {
+                "key": "field_5d9ce54339360",
+                "label": "App Feature #1",
+                "name": "app_feature_1",
+                "type": "textarea",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "Enter Your App Features",
+                "maxlength": 150,
+                "rows": 3,
+                "new_lines": ""
+            },
+            {
+                "key": "field_5d9ce58539361",
+                "label": "App Feature #2",
+                "name": "app_feature_2",
+                "type": "textarea",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "Enter Your App Features",
+                "maxlength": 150,
+                "rows": 3,
+                "new_lines": ""
+            },
+            {
+                "key": "field_5d9ce59439362",
+                "label": "App Feature #3",
+                "name": "app_feature_3",
+                "type": "textarea",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "Enter Your App Features",
+                "maxlength": 150,
+                "rows": 3,
+                "new_lines": ""
+            },
+            {
+                "key": "field_5d9ce5a739364",
+                "label": "App Feature #4",
+                "name": "app_feature_4",
+                "type": "textarea",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "Enter Your App Features",
+                "maxlength": 150,
+                "rows": 3,
+                "new_lines": ""
+            },
+            {
+                "key": "field_5d9ce5d539366",
+                "label": "App Feature #5",
+                "name": "app_feature_5",
+                "type": "textarea",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "Enter Your App Features",
+                "maxlength": 150,
+                "rows": 3,
+                "new_lines": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "appinfo"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    },
+    {
         "key": "group_5d9ce27be20d2",
         "title": "Testimonials",
         "fields": [
@@ -795,6 +733,87 @@
         "label_placement": "top",
         "instruction_placement": "label",
         "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    },
+    {
+        "key": "group_5d9ce1751a47a",
+        "title": "Clients",
+        "fields": [
+            {
+                "key": "field_5d9ce1a76b1aa",
+                "label": "Client Image",
+                "name": "client_img",
+                "type": "image",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "url",
+                "preview_size": "medium",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            },
+            {
+                "key": "field_5d9ce2116b1ab",
+                "label": "Client URL",
+                "name": "client_url",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "Enter URL if any",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "clients"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "acf_after_title",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": [
+            "permalink",
+            "the_content",
+            "excerpt",
+            "discussion",
+            "comments",
+            "revisions",
+            "slug",
+            "author",
+            "format",
+            "page_attributes",
+            "featured_image",
+            "categories",
+            "tags",
+            "send-trackbacks"
+        ],
         "active": true,
         "description": ""
     }

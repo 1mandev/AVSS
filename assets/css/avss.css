@@ -742,7 +742,7 @@ a:visited {
 }
 
 .avss-features__item--img img {
-  height: 5rem;
+ height: 5rem;
 }
 
 .avss-features__item--header {
@@ -1849,7 +1849,7 @@ a:visited {
 /*====================
       product__info
 ======================*/
-.product.product__info {
+.product__info {
   padding-top: 6rem;
   padding-bottom: 3rem;
 }
@@ -1882,9 +1882,13 @@ a:visited {
   background-color: var(--light);
 }
 
+.avss-devices__device--zilla {
+	color: var(--secondary)!important;
+  font-weight: bold;
+}
+
 .dealer .avss-devices__device--title {
   color: var(--primary);
-  font-size: 1.25rem;
 }
 
 /*====================
