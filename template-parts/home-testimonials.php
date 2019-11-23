@@ -7,7 +7,7 @@
                 </h1>
                 <div class="line-small mx-auto my-4"></div>
                 <div class="avss-section-intro__description mx-auto">
-                    We are focusing on building our brand as a trusted consumer-band. AVSS has widely recognized the country’s no #1 Vehicle Security System service providers. Let’s see what other people say about AVSS.
+                    We are focusing on building our brand as a trusted consumer-brand. AVSS has widely recognized the country’s no #1 Vehicle Security System service providers. Let’s see what other people say about AVSS.
                 </div>
             </div>
         </div>

@@ -18,7 +18,7 @@
   
   <!-- Facebook Meta Tags -->
   <meta property="og:image" content="<?php echo get_template_directory_uri() . '/assets/img/avss.png'; ?>" itemprop="thumbnailUrl">
-  <meta property="og:title" content="AVSS.io - Track all your vehicles with AVSSs">
+  <meta property="og:title" content="AVSS.io - Track all your vehicles with AVSS">
   <meta property="og:url" content="http://avss.io/">
   <meta property="og:site_name" content="AVSS.io">
   <meta property="og:type" content="website" />
