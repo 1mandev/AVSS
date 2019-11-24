@@ -260,25 +260,6 @@
         "title": "Dealers",
         "fields": [
             {
-                "key": "field_5d9ce83960e25",
-                "label": "Dealer Zilla",
-                "name": "dealer_zilla",
-                "type": "text",
-                "instructions": "",
-                "required": 1,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "default_value": "",
-                "placeholder": "E.g. ঢাকা- বংশাল",
-                "prepend": "",
-                "append": "",
-                "maxlength": ""
-            },
-            {
                 "key": "field_5daff98850ac2",
                 "label": "Dealer Title",
                 "name": "dealer_title",
@@ -293,6 +274,55 @@
                 },
                 "default_value": "",
                 "placeholder": "E.g. রহমতউল্লাহ এন্ড সন্স",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5dd9b3d198896",
+                "label": "Dealer Division",
+                "name": "dealer_division",
+                "type": "radio",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "1": "Dhaka (ঢাকা)",
+                    "2": "Chittagong (চট্টগ্রাম)",
+                    "3": "Rajshahi (রাজশাহী)",
+                    "4": "Barishal (বরিশাল)",
+                    "5": "Khulna (খুলনা)",
+                    "6": "Rangpur (রংপুর)",
+                    "7": "Sylhet (সিলেট)",
+                    "8": "Mymensingh (ময়মনসিংহ)"
+                },
+                "allow_null": 0,
+                "other_choice": 0,
+                "default_value": "",
+                "layout": "vertical",
+                "return_format": "array",
+                "save_other_choice": 0
+            },
+            {
+                "key": "field_5d9ce83960e25",
+                "label": "Dealer Zilla",
+                "name": "dealer_zilla",
+                "type": "text",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "E.g. ঢাকা- বংশাল",
                 "prepend": "",
                 "append": "",
                 "maxlength": ""
@@ -341,7 +371,7 @@
                 "name": "dealer_phone_num_2",
                 "type": "text",
                 "instructions": "",
-                "required": 1,
+                "required": 0,
                 "conditional_logic": 0,
                 "wrapper": {
                     "width": "",
@@ -353,6 +383,22 @@
                 "prepend": "",
                 "append": "",
                 "maxlength": ""
+            },
+            {
+                "key": "field_5dc5d75718e1d",
+                "label": "Dealers Google Maps URL",
+                "name": "dealer_map",
+                "type": "url",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "https:\/\/www.google.com\/maps\/@22.802432,89.5377408,13z"
             }
         ],
         "location": [

@@ -58,16 +58,15 @@
           <li class="nav-item">
             <a data-scroll class="nav-link nav-link-custom" href="<?php echo site_url('/#features') ?>">features</a>
           </li>
-          <li class="nav-item">
-            <a data-scroll class="nav-link nav-link-custom" 
-            href="<?php echo site_url('/#video') ?>">how it works</a>
-          </li>
 
           <li class="nav-item">
             <a data-scroll class="nav-link nav-link-custom" href="<?php echo site_url('/#appinfo') ?>">download app</a>
           </li>
           <li class="nav-item">
             <a class="nav-link nav-link-custom" href="<?php echo site_url('/blog') ?>">blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-custom" href="<?php echo site_url('/dealers') ?>">selling points</a>
           </li>
           <li class="nav-item">
             <a class="nav-link nav-link-custom" href="<?php echo site_url('/about') ?>">about us</a>
